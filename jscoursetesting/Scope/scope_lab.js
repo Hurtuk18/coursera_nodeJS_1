@@ -24,9 +24,36 @@ function show(){
     var functionVar = "I'm a block-scoped var";
     let functionLet = "I'm a block-scoped let";
     const functionConst = "I'm a block-scoped const";
-    }
-    show();
+}
+
+show();
     
-    console.log(functionVar); // Throws ReferenceError
-    console.log(functionLet); // Throws ReferenceError
-    console.log(functionConst); // Throws ReferenceError
+//console.log(functionVar); // Throws ReferenceError
+//console.log(functionLet); // Throws ReferenceError
+//console.log(functionConst); // Throws ReferenceError
+
+// Practice task
+{
+    // Exercise 1
+    var practiceBlockVar = "I'm a practice block-scoped var";
+    let practiceBlockLet = "I'm a practice block-scoped let";
+    const practiceBlockConst = "I'm a practice block-scoped const";
+
+    // Exercise 2
+    practiceBlockVar = "I'm changed block-scoped var";
+    practiceBlockLet = "I'm changed block-scoped let";
+    //practiceBlockConst = "I'm changed block-scoped const"; // Throws TypeError --> const can not be reasigned
+
+    console.log(practiceBlockVar)
+    console.log(practiceBlockLet)
+    console.log(practiceBlockConst)
+}
+
+// Exercise 3
+practiceBlockVar = "I'm changed block-scoped var again";
+practiceBlockLet = "I'm changed block-scoped let again";
+practiceBlockConst = "I'm changed block-scoped const again"; // can be reasigned again
+
+console.log(practiceBlockVar)
+console.log(practiceBlockLet)
+console.log(practiceBlockConst)
