@@ -14,6 +14,20 @@ function checkCountValue() {
     }
   }
 
+function resetCount() {
+    count = 0; // Set up the count value to 0
+    displayCount(); // Display the count
+    checkCountValueReset(); // Check count value has been changed to 0 and display message
+}
+
+function checkCountValueReset() {
+    if (count == 0) {
+        alert("Followers count has been reset!")
+    }
+}
+
 function displayCount() {
     document.getElementById('countDisplay').innerHTML=count; // Display the count in the HTML
 }
+
+
