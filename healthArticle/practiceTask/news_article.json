@@ -1,0 +1,24 @@
+{
+  "articles": [
+    {
+      "title": "Breaking News: UI is better than ever",
+      "description": "A detailed look at the latest trends in AI.",
+      "content": "From artificial intelligence we can expect great things in the near future. This technology can replace us (humans) in multiple spheres and replace us from our jobs."
+    },
+    {
+      "title": "World News: USA leaving WHO",
+      "description": "The effects of USA leaving WHO.",
+      "content": "Right after inauguration of the US president D. Trump has signed a document about leaving the WHO. This step started process of leaving WHO. USA has been the biggest sponsor for that organization (18%)."
+    },
+    {
+      "title": "Sports Update: El Clasico is back again",
+      "description": "Highlights from the latest El Clasico match.",
+      "content": "An incredible match between Barca and Real Madrid leads to the stunning result 5:2. Barca did that with only 10 men because of Szczesny's red card in the midle of second half."
+    },
+    {
+      "title": "Economy: Bitcoin era",
+      "description": "An overview of recent news about Bitcoin.",
+      "content": "Bitcoin hits value of 100 000$. Its value still rises and we can only imagine what this cryptocurrency can do in the future. So there is only one real question, should we invest into this crypto or not?"
+    }
+  ]
+}
